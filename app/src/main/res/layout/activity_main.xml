@@ -9,27 +9,38 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Babushka"
+        android:text="@string/Babushka_string"
         android:textStyle="bold"
-        android:textSize="50dp"
+        android:textSize="50sp"
         android:layout_centerInParent="true"
         android:textColor="@color/greyIsfAmazing"
         android:id="@+id/babushka_id"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peter Piper Picked A Mole off of His Groin"
+        android:layout_alignParentBottom="true"
+        android:textSize="25sp"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Well that was easy"
+        android:text="@string/button_text"
         android:background="@color/buttonGrey"
         android:layout_below="@id/babushka_id"
         android:layout_centerInParent="true"
         android:layout_margin="10dp"/>
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bloop"/>
+
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
-
+        android:layout_height="match_parent" />
 
 
 </RelativeLayout>
