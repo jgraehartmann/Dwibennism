@@ -35,7 +35,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Bloop"/>
+        android:text="Bloop SKOOP POOP"/>
 
     <FrameLayout
         android:id="@+id/fragment_container"
